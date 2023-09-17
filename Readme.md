@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Герман Ярлинский](https://up.htmlacademy.ru/htmlcss-individual/1/user/2428757).
-* Наставник: `Неизвестно`.
+* Наставник: [Сергей Остаповец](https://htmlacademy.ru/profile/seraphim).
 
 ---
 
