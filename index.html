@@ -1,54 +1,55 @@
 <!DOCTYPE html>
 <html lang="ru">
-
-<head>
-  <meta charset="utf-8">
-  <title>HTML Academy: Седона</title>
-</head>
-
-<body>
-  <div class="container">
-    <header class="page-header">
-      <div class="logo">
-        <a href="index.html"><img src="#" alt="Логотип сайта Седона"></a>
-      </div>
-      <nav class="main-navigation">
-        <ul class="navigation-list">
-          <li class="navigation-item"> <a class="navigation-link" href="#">Главная</a> </li>
-          <li class="information-item"> <a class="navigation-link" href="#">О Седоне</a> </li>
-          <li class="catalog-item"> <a class="navigation-link" href="catalog.html">Гостиницы</a> </li>
-        </ul>
-      </nav>
-      <nav class="main-navigation">
-        <ul>
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">
-              <span class="visually-hidden">Поиск</span>
-            </a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">
-              <span class="visually-hidden">Избранное</span>
-              <span class="notification-badge">12</span>
-            </a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">
-              <input type="button" value="Хочу сюда!">
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <head>
+        <meta charset="utf-8" />
+        <title>HTML Academy: Седона</title>
+    </head>
+    <body>
+        <div class="container">
+            <header class="page-header">
+                <nav class="main-navigation">
+                  <a href="index.html" class="main-logo"><img src="#" alt="Логотип сайта Седона" /></a>
+                    <ul class="navigation-list">
+                        <li class="navigation-item"><a class="navigation-link">Главная</a></li>
+                        <li class="navigation-item"><a class="navigation-link" href="#">О Седоне</a></li>
+                        <li class="navigation-item"><a class="navigation-link" href="catalog.html">Гостиницы</a></li>
+                    </ul>
+                </nav>
+                <nav class="user-navigation">
+                    <ul>
+                        <li class="navigation-item">
+                            <a class="navigation-link" href="#">
+                                <span class="visually-hidden">Поиск</span>
+                            </a>
+                        </li>
+                        <li class="navigation-item">
+                            <a class="navigation-link" href="#">
+                                <span class="visually-hidden">Избранное</span>
+                                <span class="notification-badge">12</span>
+                            </a>
+                        </li>
+                        <li class="navigation-item">
+                            <a class="navigation-link" href="#">
+                                <button type="button">Хочу сюда!</button>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
     <main class="main-index">
-      <h1 class="visually-hidden"> Сайт города Седона </h1> <img class="logo" src="#" alt="Добро пожаловать в великолепный город Седона.">
+      <h1 class="visually-hidden"> Сайт города Седона </h1>
+      <div class="img">
+      <img class="logo" src="#" alt="Добро пожаловать в великолепный город Седона.">
+      </div>
       <section class="promo-section">
         <h2 class="promo-title">Седона — небольшой городок в Аризоне,<br>заслуживающий большего!</h2>
         <p class="promo-description">Рассмотрим причины, по которым Седона круче, чем Гранд Каньон!</p>
       </section>
       <section class="natural-section main-reason-section reasons-grid">
         <div class="reason-container">
-          <h2 class="reason-title white-reason">Настоящий<br>городок</h2> <span class="reason-description">Седона - не аттракцион для <br>туристов, там течёт своя жизнь</span>
+          <h2 class="reason-title white-reason">Настоящий<br>городок</h2>
+          <span class="reason-description">Седона - не аттракцион для <br>туристов, там течёт своя жизнь</span>
           <ul class="advantage-list clear-list reasons-grid">
             <li class="advantage-item reason-container">
               <h3 class="reason-title">Небольшая площадь</h3> <span class="reason-description">Все достопримечательности<br>находятся очень близко</span> </li>
@@ -57,7 +58,11 @@
             <li class="advantage-item reason-container">
               <h3 class="reason-title">Мало туристов</h3> <span class="reason-description">Большинство едет в Гранд <br>Каньон и толпится там</span> </li>
           </ul>
-        </div> <img class="reason-image" src="#" alt="Изображение достопримечательностей города Седона"> </section>
+        </div>
+        <div class="img">
+        <img class="reason-image" src="#" alt="Изображение достопримечательностей города Седона">
+        </div>
+      </section>
       <section class="bridge-section main_reason-section reasons-grid">
         <div class="reason-container">
           <h3 class="reason-title white-reason">Там есть Мост&nbsp;дьявола</h3> <span class="reason-description">Да, по нему можно пройти! Если конечно вы осмелитесь</span> </div> <img class="reason-image" src="#" alt="Изображение моста дьявола-достопримечательности Седоны"> </section>
@@ -84,42 +89,21 @@
       </section>
       <section class="order-section">
         <div class="index-wrapper">
-          <h2 class="visually-hidden">Поиск гостиницы в Седоне</h2>
-          <p class="promo-question">Заинтересовались?</p>
+          <h2 class="visually-hidden">Заинтересовались?</h2>
           <p class="order-description">Укажите предполагаемые даты поездки,
             <br>и мы покажем вам лучшие предложения гостиниц в седоне</p>
-          <button class="hotel-btn" type="button">Поиск гостиницы в седоне</button>
+          <button class="hotel-btn" type="button">Поиск гостиницы в Седоне</button>
         </div>
-        <form class="booking-form form-open" action="https://echo.htmlacademy.ru" method="post">
-          <p class="date-selection">
-            <label class="book-label" for="arrival-date">Дата заезда:</label>
-            <input class="date-input booking-field" type="text" id="arrival-date" name="arrival" placeholder="24 апреля 2017" required> </p>
-          <p class="date-selection">
-            <label class="book-label" for="departure-date">Дата выезда:</label>
-            <input class="date-input booking-field" type="text" id="departure-date" name="departure" placeholder="4 июля 2017" required> </p>
-          <div class="people-count">
-            <p class="adults-choiсe">
-              <label class="book-label" for="adults-numb">Взрослые:</label>
-              <button type="button" class="count-btn minus-btn" aria-label="Уменьшить количество взрослых"></button>
-              <input class="people-input booking-field" type="text" pattern="[1-9]{1}" id="adults-numb" name="adults" value="2" required>
-              <button type="button" class="count-btn plus-btn" aria-label="Увеличить количество взрослых"></button>
-            </p>
-            <p class="child-choise">
-              <label class="book-label" for="child-numb">Дети:</label>
-              <button type="button" class="count-btn minus-btn" aria-label="Уменьшить количество детей"></button>
-              <input class="people-input booking-field" type="text" pattern="[0-9]{1}" id="child-numb" name="child" value="0">
-              <button type="button" class="count-btn plus-btn" aria-label="Увеличить количество детей"></button>
-            </p>
-          </div>
-          <button class="book-btn" type="submit">Найти</button>
-        </form>
       </section>
+
       <section class="newsletter">
         <h2 class="mailing-title">Подпишитесь на рассылку</h2>
         <p class="newsletter-subtitle">Только полезная информация и никакого спама,
           <br>честное бойскаутское!</p>
         <form class="newsletter-form" action="https://echo.htmlacademy.ru" method="post">
+          <label>
           <input class="field" placeholder="Ваш E-mail" type="email" name="newsletter-email" id="newsletter-email" required>
+          </label>
           <button class="button newsletter-button" type="submit">
             <span class="subscribe-button">Подписаться</span>
           </button>
@@ -153,4 +137,28 @@
     </footer>
   </div>
 </body>
+
+<form class="booking-form form-open" action="https://echo.htmlacademy.ru" method="post">
+  <p class="date-selection">
+    <label class="book-label" for="arrival-date">Дата заезда:</label>
+    <input class="date-input booking-field" type="text" id="arrival-date" name="arrival" placeholder="24 апреля 2017" required> </p>
+  <p class="date-selection">
+    <label class="book-label" for="departure-date">Дата выезда:</label>
+    <input class="date-input booking-field" type="text" id="departure-date" name="departure" placeholder="4 июля 2017" required> </p>
+  <div class="people-count">
+    <p class="adults-choiсe">
+      <label class="book-label" for="adults-numb">Взрослые:</label>
+      <button type="button" class="count-btn minus-btn" aria-label="Уменьшить количество взрослых"></button>
+      <input class="people-input booking-field" type="text" pattern="[1-9]{1}" id="adults-numb" name="adults" value="2" required>
+      <button type="button" class="count-btn plus-btn" aria-label="Увеличить количество взрослых"></button>
+    </p>
+    <p class="child-choise">
+      <label class="book-label" for="child-numb">Дети:</label>
+      <button type="button" class="count-btn minus-btn" aria-label="Уменьшить количество детей"></button>
+      <input class="people-input booking-field" type="text" pattern="[0-9]{1}" id="child-numb" name="child" value="0">
+      <button type="button" class="count-btn plus-btn" aria-label="Увеличить количество детей"></button>
+    </p>
+  </div>
+  <button class="book-btn" type="submit">Найти</button>
+</form>
 </html>
