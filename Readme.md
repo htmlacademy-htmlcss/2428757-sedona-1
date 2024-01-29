@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Герман Ярлинский](https://up.htmlacademy.ru/htmlcss-individual/1/user/2428757).
-* Наставник: [Сергей Остаповец](https://htmlacademy.ru/profile/seraphim).
+* Студент: [Анастасия Борискина](https://up.htmlacademy.ru/htmlcss/38/user/2386567).
+* Наставник: [Екатерина Комнатная](https://htmlacademy.ru/profile/id215761)
 
 ---
 
@@ -18,7 +18,7 @@ _`.editorconfig`, `.gitattributes`, `.gitignore`, `Contributing.md`, `Readme.md`
 
 #### 2. Создайте форк
 
-[Откройте мастер-репозиторий](https://github.com/htmlacademy-htmlcss/2428757-sedona-1) и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии скопируется в ваш аккаунт.
+[Откройте мастер-репозиторий](https://github.com/htmlacademy-htmlcss/2386567-sedona-38) и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии скопируется в ваш аккаунт.
 
 <img width="769" alt="" src="https://user-images.githubusercontent.com/10909/29037949-67a635d6-7bae-11e7-9f2f-1a48fde231b9.jpg">
 
